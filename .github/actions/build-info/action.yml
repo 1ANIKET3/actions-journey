@@ -1,0 +1,10 @@
+name: mwf
+description: test
+runs:
+  using: composite
+  steps:
+    - run: echo "Branch $GITHUB_REF_NAME"
+      shell: bash
+    - run: echo "Commit $GITHUB:SHA"
+      shell: bash
+     
