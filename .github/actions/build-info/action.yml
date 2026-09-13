@@ -5,6 +5,6 @@ runs:
   steps:
     - run: echo "Branch $GITHUB_REF_NAME"
       shell: bash
-    - run: echo "Commit $GITHUB:SHA"
+    - run: echo "Commit $GITHUB_SHA"
       shell: bash
      
