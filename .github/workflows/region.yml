@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: steps1
-      run: echo "the REG is ${{vars.DEPLOY_REGION}}"
+      run: echo "the REGio is ${{vars.DEPLOY_REGION}}"
