@@ -1,0 +1,8 @@
+name: 2811
+on: push
+jobs:
+  repo:
+    runs-on: ubuntu-latest
+    steps:
+    - name: steps1
+      run: echo "the regios is ${{var.DEPLOY_REGION}}"
